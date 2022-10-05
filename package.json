@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,11 @@
     "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "webpack-cli": "^4.10.0"
-  }
+  },
+  "repository": {
+    "url": "git+https://github.com/FrancoMelnicov/MyWordle.git"
+  },
+  "homepage": "http://FrancoMelnicov.github.io/MyWordle"
 }
