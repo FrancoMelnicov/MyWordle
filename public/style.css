@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter Tight', sans-serif;
+    height: 100vh;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-success {
+    background-color: lawngreen;
+}
+
+.box-error {
+    background-color: darkgray;
+}
+
+.box-posible {
+    background-color: gold;
+}
+
+.letter-added {
+    background-color: lightsteelblue;
+}
+
+.message-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.message-success {
+    color: darkgreen;
+}
+
+.message-error {
+    color: brown;
+}
+
+.options {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: darkgray;
+    color: white;
+}
